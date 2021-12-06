@@ -1,0 +1,120 @@
+:root{
+    --header-photo: #73738c;
+    --section-color: #d2e2c5;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 400px;
+}
+
+.header {
+    background-color: var(--header-photo);
+    padding: 5px 0px 5px 0px;
+    width: 100%;
+    border-bottom: black solid 5px;
+    position: absolute;  
+}
+.header h1 {
+    font-family: cursive;
+    font-size: 80px;
+    color: white;
+    word-spacing: 1rem;
+    letter-spacing: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header nav ul {
+    display: inline-flex;
+    float: right;
+    flex: 1 0 200px;
+    margin-top: -25px;
+    margin-right: 20px;
+}
+
+.header nav ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.header nav ul li a {
+    text-decoration: none;  
+    color: white;
+}
+
+aside {
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* width: 33%; */
+
+
+}
+
+aside .emptybox {
+    background-color: var(--section-color);
+    position: absolute;
+    top: 150px; left: 70px;
+    width: 300px;
+    padding-bottom: 100%;
+    /* flex: none; */
+}
+#me {
+    max-width: 275px;
+    max-height: 324.5px;
+    padding: 5px;
+    background-color: var(--section-color);
+    border: var(--header-photo) solid 20px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -12px;
+ }
+
+ .contact {
+     padding: 10px;
+     width: 302px;
+     margin-left: -12px;
+     margin-top: 20px;
+     background-color: white;
+     border: solid 2px black;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .contact h2 {
+     text-align: center;
+ }
+ .contact p {
+     line-height: 20px;
+ }
+
+.aboutme {
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+
+}
+
+ .aboutme h2 {
+     /* text-align: center; */
+     float: center;
+ }
+
+ .aboutme {
+     padding: 50px;
+     /* display: inline-flex; */
+     float: right;
+     margin-top: 200px;
+     margin-left: 400px;
+     /* max-width: 400px; */
+     /* max-height: 200px; */
+     width: 100%;
+     background-color: var(--section-color);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
