@@ -7,19 +7,18 @@
     padding: 0;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 400px;
-}
-
 .header {
     background-color: var(--header-photo);
     padding: 5px 0px 5px 0px;
     width: 100%;
     border-bottom: black solid 5px;
-    position: absolute;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex: 2 6; */
+    
 }
+
 .header h1 {
     font-family: cursive;
     font-size: 80px;
@@ -27,94 +26,137 @@ main {
     word-spacing: 1rem;
     letter-spacing: 10px;
     margin-left: 20px;
-    display: flex;
-    flex-wrap: wrap;
+
 }
 
-.header nav ul {
-    display: inline-flex;
-    float: right;
-    flex: 1 0 200px;
-    margin-top: -25px;
-    margin-right: 20px;
-}
-
-.header nav ul li {
+.nav ul li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style-type: none;
-    font-size: 20px;
-    margin-left: 80px;
+    font-size: 18px;
+    display: inline-flex;
+    margin-right: 40px;
+    margin-top: 10px;
+
 }
 
-.header nav ul li a {
+.nav ul li a {
     text-decoration: none;  
     color: white;
 }
 
-aside {
-    /* display: flex; */
-    /* flex-wrap: nowrap; */
-    /* width: 33%; */
 
 
+
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex: 2 2;
 }
 
-aside .emptybox {
+.emptybox {
     background-color: var(--section-color);
-    position: absolute;
-    top: 150px; left: 70px;
-    width: 300px;
-    padding-bottom: 100%;
-    /* flex: none; */
+    padding-bottom: 3.5%;
+    margin-left: 80px;
+    margin-top: 5px;
+    flex: 1 1;
+    max-width: 300px;
+
 }
-#me {
+.emptybox img {
     max-width: 275px;
     max-height: 324.5px;
     padding: 5px;
     background-color: var(--section-color);
     border: var(--header-photo) solid 20px;
-    width: 100%;
     margin-top: 20px;
     margin-left: -12px;
+    width: 100%;
+    /* flex: 2 2; */
  }
 
  .contact {
-     padding: 10px;
-     width: 302px;
-     margin-left: -12px;
-     margin-top: 20px;
      background-color: white;
+     text-align: center;
      border: solid 2px black;
+     margin-left: -10px;
+     margin-right: -10px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     margin-top: 30px;
+     /* flex: 2 2; */
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
 
- .contact h2 {
-     text-align: center;
- }
- .contact p {
-     line-height: 20px;
- }
 
-.aboutme {
+
+.right {
+    flex: 5 10;
+    max-width: 1000px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 100%;
     /* display: flex; */
     /* flex-wrap: nowrap; */
 
+
 }
 
- .aboutme h2 {
-     /* text-align: center; */
-     float: center;
+.aboutme {
+    padding: 30px;
+    max-width: 810px;
+    max-height: 200px;
+    background-color: var(--section-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ .projects {
+     flex:2;
+     margin-top: 40px;
+     max-width: 875px;
+     max-height: 2000px;
+     /* display: flex; */
+     /* flex-wrap: wrap; */
+     border-top: solid 1px black;
+
  }
 
- .aboutme {
-     padding: 50px;
-     /* display: inline-flex; */
-     float: right;
-     margin-top: 200px;
-     margin-left: 400px;
-     /* max-width: 400px; */
-     /* max-height: 200px; */
-     width: 100%;
-     background-color: var(--section-color);
+ .projects h2 {
+     padding-top: 10px;
+     margin-left: 27px;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .img1 {
+     border: var(--section-color) 10px solid;
+     margin-top: 20px;
+  
+ }
+ .projects img {
+     border: var(--section-color) 10px solid;
+
+ }
+
+ .project-one {
+     padding: 10px;
+     background-color: var(--section-color);
+     max-width: 100px;
+     position: absolute;
+     margin-top: 150px;
+ }
+
+ .project-two {
+        padding: 10px;
+        background-color: var(--section-color);
+        max-width: 100px;
+        position: absolute;
+        margin-top: 80px;
+}
+ .project-three {
+            padding: 10px;
+            background-color: var(--section-color);
+            max-width: 100px;
+            position: absolute;
+            margin-top: -44px;
+            margin-left: 475px;
  }
