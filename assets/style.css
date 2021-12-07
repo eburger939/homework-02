@@ -45,11 +45,9 @@
 }
 
 
-
-
 .main {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex: 2 2;
 }
@@ -96,8 +94,8 @@
     margin-top: 50px;
     margin-left: 100px;
     width: 100%;
-    /* display: flex; */
-    /* flex-wrap: nowrap; */
+    display: flex;
+    flex-wrap: wrap;
 
 
 }
@@ -107,6 +105,8 @@
     max-width: 810px;
     max-height: 200px;
     background-color: var(--section-color);
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -118,6 +118,7 @@
      max-height: 2000px;
      /* display: flex; */
      /* flex-wrap: wrap; */
+     /* justify-content: space-between; */
      border-top: solid 1px black;
 
  }
@@ -130,6 +131,9 @@
  .img1 {
      border: var(--section-color) 10px solid;
      margin-top: 20px;
+     max-height: 850px;
+     max-width: 850px;
+     width: 100%;
   
  }
  .projects img {
@@ -142,7 +146,7 @@
      background-color: var(--section-color);
      max-width: 100px;
      position: absolute;
-     margin-top: 150px;
+     margin-top: 370px;
  }
 
  .project-two {
