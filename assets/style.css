@@ -147,6 +147,8 @@
      max-width: 100px;
      position: absolute;
      margin-top: 370px;
+     /* display: flex; */
+     /* flex-wrap: nowrap; */
  }
 
  .project-two {
