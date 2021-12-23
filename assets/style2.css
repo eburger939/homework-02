@@ -26,3 +26,15 @@
     margin-right: 4rem;
     font-size: 1.0rem;
 }
+
+.aboutme-custom {
+    background-color: rgb(122, 142, 179);
+}
+
+a {
+    text-decoration: none;
+}
+
+.custom-footer {
+    background-color: #08080f;
+}

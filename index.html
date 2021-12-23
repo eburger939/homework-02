@@ -1,79 +1,222 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
 
-    
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link rel="stylesheet" href="./assets/style2.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link rel="stylesheet" href="./assets/style2.css" />
     <title>Hello, world!</title>
   </head>
+
   <body>
-      <!-- header -->
-    <div class="container-fluid px-4 py-3 custom-container">
+    <!-- header -->
+    <section>
+      <div class="container-fluid px-4 py-3 custom-container">
         <div class="row flex-lg-row-reverse align-items-right g-5 py-2">
-          <!-- <div class="col-10 col-sm-8 col-lg-6">
-            <img src="./assets/myportfolio.png" class="d-block mx-lg-auto img-fluid" alt="Photo of Emily" width="350" height="250" loading="lazy">
-          </div> -->
           <div class="col-lg-6">
-            <h1 class="display-2 fw-bold lh-1 mt-5 custom-header">Hi, I'm Emily.</h1>
-            <p class="lead">Software Development Student at the University of Arizona Coding Bootcamp</p>
-            <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-            </div> -->
+            <h1 class="display-2 fw-bold lh-1 mt-5 custom-header">
+              Hi, I'm Emily.
+            </h1>
+            <p class="lead">
+              Student at the University of Arizona Coding Bootcamp
+            </p>
           </div>
         </div>
       </div>
 
       <nav>
         <div class="nav nav-tabs custom-navbar" id="nav-tab" role="tablist">
-          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">About Me</button>
-          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Projects</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Resume</button>
+          <button
+            class="nav-link active"
+            id="nav-home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-home"
+            type="button"
+            role="tab"
+            aria-controls="nav-home"
+            aria-selected="false"
+          >
+            About Me
+          </button>
+          <button
+            class="nav-link"
+            id="nav-profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-profile"
+            type="button"
+            role="tab"
+            aria-controls="nav-profile"
+            aria-selected="false"
+          >
+            Projects
+          </button>
+          <button
+            class="nav-link"
+            id="nav-contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-contact"
+            type="button"
+            role="tab"
+            aria-controls="nav-contact"
+            aria-selected="false"
+          >
+            Resume
+          </button>
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">hello</div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">my</div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">name</div>
+        <div
+          class="tab-pane fade show active aboutme-custom"
+          id="nav-home"
+          role="tabpanel"
+          aria-labelledby="nav-home-tab"
+        >
+        <div class="tile is-ancestor is-centered" id="boxes">
+          <div class="tile is-vertical is-parent has-text-centered is-3">
+            <div id="smallBoxes1" class="tile is-child box">
+           
+            <aside class="emptybox" id="contact">
+              <img src="./assets/myportfolio.png" alt="photo of me">
+              <section class="contact">
+                <br>
+                <br>
+                  <h2> <strong> <a href="contact"></a> Contact Information </strong> </h2>
+                  <br>
+                  <p> <strong> Phone:</strong> (309) 533-0475 </p>
+                  <p> <strong> Email: </strong> emb.burger@yahoo.com </p>
+              </section>
+          </aside>
+         
+            </div>
+        
+        
+        </div>
+        <div class="tile is-vertical is-parent">
+          <div id="smallBoxes1" class="tile is-child box">
+        <p>My name is Emily Burger, I am a student with the University of Arizona Coding Bootcamp.  Just prior, I was a clinical pharmacy specialist in psychiatry.  I have a dog named
+              Otter and a cat named Sydney.  In my free time I enjoy hiking and spending time with friends.</p>
+          </div>
+        <div
+          class="tab-pane fade projects-custom"
+          id="nav-profile"
+          role="tabpanel"
+          aria-labelledby="nav-profile-tab"
+        >
+          <div class="tile is-ancestor is-centered" id="boxes">
+            <div class="tile is-vertical is-parent has-text-centered is-3">
+              <div id="smallBoxes1" class="tile is-child box">
+                <h4 class="project-one">All About Otter</h4>
+                <a href="https://eburger939.github.io/project-one/">
+                  <img class="img1" src="./assets/otter.png" alt="project-1" />
+                </a>
+              </div>
+              <div id="smallBoxes2" class="tile is-child box">
+                <h4 class="project-three">Weather Dashboard</h4>
+                <a href="https://eburger939.github.io/06-homework/">
+                  <img
+                    src="./assets/images/hw6ss.png"
+                    alt="project-3"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="tile is-vertical is-parent has-text-centered is-3">
+              <div id="smallBoxes3" class="tile is-child box">
+                <h4 class="project-three">Movie Roulette</h4>
+                <a href="https://logan-bonnesen.github.io/Project-1/">
+                  <img
+                    src="./assets/images/Screen Shot 2021-12-23 at 3.28.45 PM.png"
+                    alt="project-3"
+                  />
+                </a>
+              </div>
+              <div id="smallBoxes4" class="tile is-child box">
+                <h4 class="project-two">Day Planner</h4>
+                <a href="https://eburger939.github.io/05-homework/">
+                  <img
+                    src="./assets/images/05-homework.png"
+                    alt="project-2"
+                  />
+                </a>
+              </div>
+            </div>
+<!-- 
+            <div class="tile is-vertical is-parent has-text-centered is-3">
+              <div id="smallBoxes5" class="tile is-child box">
+                <p class="title"></p>
+              </div>
+              <div id="smallBoxes6" class="tile is-child box">
+                <p class="title"></p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade resume-custom"
+          id="nav-contact"
+          role="tabpanel"
+          aria-labelledby="nav-contact-tab"
+        ></div>
       </div>
-      <!-- ////////////// -->
+    </section>
 
+    <footer class="footer-fluid notification custom-footer">
+      <div
+        class="content has-text-centered notification custom-footer g-5 py-2"
+      >
+        <div class="fa=lg fa-2x">
+          <a
+            href="www.linkedin.com"
+            class="fas fa-envelope text-white ml-2"
+          ></a>
+          <a href="www.linkedin.com" class="fab fa-linkedin text-white"></a>
+          <a href="www.github.com" class="fab fa-github text-white"></a>
+        </div>
+      </div>
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- <div class="container-fluid px-4 py-3 justify-content-center custom-container">
+    <div class="row g-5 py-2">
+      <div class="col-12 fa-lg fa-2x">
+        <a href="www.linkedin.com" class="fas fa-envelope text-white"></a>
+        <a href="www.linkedin.com" class="fab fa-linkedin text-white"></a>
+        <a href="www.github.com" class="fab fa-github text-white"></a>
 
+      </div>
+    </div>
+  </div> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- <!DOCTYPE html>
 <html lang="en">
