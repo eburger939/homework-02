@@ -1,0 +1,28 @@
+.custom-container {
+    background-color: #08080f;
+}
+
+.custom-header {
+    color: rgb(185, 181, 181);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.lead {
+    color: rgb(143, 136, 136);
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.custom-navbar {
+    background-color: #08080f;
+    color: rgb(143, 136, 136);
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.nav-link {
+    color: rgb(143, 136, 136);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-right: 4rem;
+    font-size: 1.0rem;
+}
